@@ -68,7 +68,7 @@ const Movie = ({
           </div>
         </div>
         <button className="btn btn-primary btn-block mt-3">
-          Watch Trailor
+          Watch Trailer
         </button>
       </div>
     </div>
