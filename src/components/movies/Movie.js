@@ -29,6 +29,7 @@ const Movie = ({
             <i className="fa fa-caret-up"></i>
             {upVoted && downVoted ? upVoted.length - downVoted.length : 0}
             <i className="fa fa-caret-down"></i>
+			Votes
           </div>
           <img src={poster} alt="" className="movie-poster" />
           <div className="column">
