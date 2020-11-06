@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+i {
+  font-size: 58px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.bg-gradient,
+.btn-gradient {
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+}
+
+.bg-gradient,
+.bg-light {
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 7px #aaa;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+.loader {
+  display: block;
+  width: 100px;
+  margin: 10rem auto 0;
+}
+
+.card {
+  min-width: 30vw;
+  background-color: #f9f9f9;
+}
+
+.card-body {
+  box-shadow: 0 0 5px #ccc;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Movie Description */
+.column {
+  min-width: 0;
+}
+
+.movie-poster {
+  border-radius: 5px;
+  width: 100px;
+  height: 150px;
+  margin: 0 1.5rem;
+  box-shadow: 1px 1px 5px 0 #555;
+}
+
+/* For Phones */
+@media (max-width: 375px) {
+  .movie-poster {
+    width: 70px;
+  }
+}
