@@ -30,9 +30,9 @@ const SignUp = () => {
       let i,
         flag = false;
 
-      // Check for duplicate users based on phone numbers
+      // Check for duplicate users based on password
       for (i = 0; i < users.length; i++) {
-        if (users[i].phone === user.phone) {
+        if (users[i].password === user.password) {
           flag = true;
         }
       }
