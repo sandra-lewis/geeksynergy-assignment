@@ -22,7 +22,7 @@ const Movies = ({ changeBgColor }) => {
       const {
         data: { result },
       } = await axios.post(
-        'https://cors-anywhere.herokuapp.com/https://hoblist.com/movieList',
+		'https://cors-anywhere.herokuapp.com/https://hoblist.com/movieList',
         {
           category: 'movies',
           language: 'kannada',
