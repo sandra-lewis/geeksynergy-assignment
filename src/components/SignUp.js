@@ -88,7 +88,7 @@ const SignUp = () => {
               type="tel"
               className="form-control mb-4 bg-transparent"
               name="phoneNo"
-              placeholder="Indian Mobile Number"
+              placeholder="Mobile Number"
               pattern="[6-9][0-9]{9}"
               required
               value={phone}
