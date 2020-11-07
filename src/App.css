@@ -83,6 +83,7 @@ a:hover {
 /* For Phones */
 @media (max-width: 375px) {
   .movie-poster {
-    width: 70px;
+    width: 80px;
+    margin: 0 1.25rem;
   }
 }

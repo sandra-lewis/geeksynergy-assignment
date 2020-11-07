@@ -109,11 +109,13 @@ const SignUp = () => {
               <option value="Manager">Manager</option>
             </select>
             {created && (
-              <small className="form-text text-success mb-2">
-                Your account has been created successfully. Proceed to{' '}
-                <Link to="/sign-in">Sign In.</Link>
+              <small className="form-text text-success mb-3">
+                Your account has been created successfully.
               </small>
             )}
+            <small className="form-text text-muted mb-2">
+              Already have an account? <Link to="/sign-in">Sign In.</Link>
+            </small>
             <button type="submit" className="btn btn-gradient btn-block">
               Sign Up
             </button>
